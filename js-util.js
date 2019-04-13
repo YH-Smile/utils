@@ -26,5 +26,5 @@ if (!String.prototype.trim) {
 
 
 function isEmpty(str) {
-	return !str || undefined === str || null === str || '' === str || '' === str.trim() || 'undefined' === str.trim() || 'null' === str.trim();
+	return !str || undefined === str || null === str || '' === str || '' === str.trim || 'undefined' === str.trim || 'null' === str.trim;
 }
